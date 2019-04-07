@@ -18,3 +18,9 @@ script:
 
 after_success:
   - codecov
+
+deploy:
+  - provider: heroku
+    api_key:
+      secure: 63bc8fb1-fe4a-410f-8be9-30102164d94c
+    app: learn-python-words
