@@ -1,1 +1,5 @@
 language: python
+deploy:
+  provider: heroku
+  api_key: 6adad932-06ca-4da5-9898-850bc44f98c2
+  app: learn-python-words
