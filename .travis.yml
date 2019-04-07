@@ -1,5 +1,13 @@
 language: python
-deploy:
-  provider: heroku
-  api_key: 6adad932-06ca-4da5-9898-850bc44f98c2
-  app: learn-python-words
+python:
+  - "3.5"
+  - "3.5-dev"  # 3.5 development branch
+  - "3.6"
+  - "3.6-dev"  # 3.6 development branch
+  - "3.7"
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+before_script:
+  - export FLASK_APP="$TRAVIS_BUILD_DIR/autoapp.py"
+  - export FLASK_DEBUG=1
