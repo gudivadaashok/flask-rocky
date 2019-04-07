@@ -1,1 +1,1 @@
-web: gunicone gallary:app
+web: gunicorn webapp:app

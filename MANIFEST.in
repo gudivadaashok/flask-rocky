@@ -1,0 +1,3 @@
+recursive-include flask-rocky/templates
+include config.py
+global-exclude *.pyc
