@@ -1,0 +1,16 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "learn-python-words",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
