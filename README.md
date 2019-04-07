@@ -1,6 +1,6 @@
 # `First Flask App`
 
-##Pages
+## Pages
 * Home
     * Python 
     * Words
