@@ -16,6 +16,14 @@ HTML = """
     </head>
     <body>
         <h1>Home Page</h1>
+        <p>Lets learn
+            <ul>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>Build Python webapp</li>
+                <li>Machine learning Python</li>  
+            </ul>
+        </p>
 
     </body>
 </html>
