@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/gudivadaashok/flask-rocky.svg?token=RNkiRQKPMZhCbpHGnQas&branch=master)](https://travis-ci.com/gudivadaashok/flask-rocky)
 # `First Flask App`
 
 ## Pages
