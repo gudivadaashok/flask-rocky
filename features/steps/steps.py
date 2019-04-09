@@ -6,4 +6,4 @@ def step_impl(ctx):
 
 @then(u'Home Page should be displayed')
 def step_impl(ctx):
-    assert 'Home Page' in ctx.resp
+    assert 'This is the home page' in ctx.resp
